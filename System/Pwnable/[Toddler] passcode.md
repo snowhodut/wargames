@@ -1,11 +1,11 @@
 ---
 sticker: emoji//2757
 ---
-![](Attachments/{E8AA1051-C408-4E2D-AB4E-2E9498C60C29}.png)
+![](Attachments/E8AA1051-C408-4E2D-AB4E-2E9498C60C29.png)
 
 컴파일러 warning이 있었지만 무시하고 에러 없이 컴파일했다고 한다.
 
-![](Attachments/{5DFAC315-32C8-4071-AAE8-0274378F4397}.png)
+![](Attachments/5DFAC315-32C8-4071-AAE8-0274378F4397.png)
 
 passcode.c를 열어보자.
 
@@ -59,7 +59,7 @@ passcode1과 passcode2를 알려주고 있다.
 일단 passcode 파일을 실행했다.
 name을 입력하고 passcode1을 입력했는데, segmentation fault 에러가 발생하고 종료됐다.
 
-![](Attachments/{905D3A93-46FC-46F2-9E71-54AF077A7A6E}.png)
+![](Attachments/905D3A93-46FC-46F2-9E71-54AF077A7A6E.png)
 
 scanf에서 passcode를 받을 때 '&' 문자로 주소를 정해줘야 하는데 빠져 있어서 생기는 에러인 것 같다.
 
@@ -68,7 +68,7 @@ scanf에서 passcode를 받을 때 '&' 문자로 주소를 정해줘야 하는�
 
 무슨 warning이 생겼던 건지 passcode.c 파일을 한번 컴파일해보자.
 
-![](Attachments/{99BA4F09-1D44-4363-B0CB-4DDCC065060B}.png)
+![](Attachments/99BA4F09-1D44-4363-B0CB-4DDCC065060B.png)
 
 scanf 함수가 결과를 저장할 passcode1과 passcode2의 주소를 주는 것 대신 그냥 값을 패스하고 있다.
 
@@ -79,7 +79,7 @@ welcome 함수의 scanf에서 warning이 안 뜨는 이유는, 배열의 이름�
 
 welcome 함수를 disassemble해보자.
 
-![](Attachments/{6E701AD5-1C56-4192-A913-61C4695F692A}.png)
+![](Attachments/6E701AD5-1C56-4192-A913-61C4695F692A.png)
 ```c
 void welcome(){
  char name[100];
@@ -100,7 +100,7 @@ welcome+33부터 welcome+48까지, scanf 함수에서 벌어지는 일은 다음
 
 scanf 함수가 호출된 직후인 0x00804863e에 breakpoint를 걸고 실행한다.
 
-![](Attachments/{B8DED19F-32DB-4627-872C-AF77F7376A85}.png)
+![](Attachments/B8DED19F-32DB-4627-872C-AF77F7376A85.png)
 
 `(gdb) x/1s $ebp-0x70`
 맞았다!
@@ -110,8 +110,8 @@ scanf 함수가 호출된 직후인 0x00804863e에 breakpoint를 걸고 실행�
 
 이제 passcode1을 찾아보자.
 
-![](Attachments/{34DEC3AA-393A-4119-A6EF-6052AFD3FA7A}.png)
-![](Attachments/{64911B97-4FC1-4F67-B50C-757F6BB468D1}.png)
+![](Attachments/34DEC3AA-393A-4119-A6EF-6052AFD3FA7A.png)
+![](Attachments/64911B97-4FC1-4F67-B50C-757F6BB468D1.png)
 ```c
 void login(){
  int passcode1;
@@ -173,7 +173,7 @@ name 끝 4바이트에 fflush의 GOT 주소를 입력해서 실행시킨다.
 
 `fflush`의 GOT 테이블 주소를 찾아보자.
 
-![](Attachments/{3D5CFAB0-FA80-456D-968D-29E459859D79}.png)
+![](Attachments/3D5CFAB0-FA80-456D-968D-29E459859D79.png)
 
 `0x08048430 <+0>: jmp *0x804a004`에서 0x804a004로 jmp하는데, 이곳이 `fflush` 함수의 GOT이다.
 
@@ -182,7 +182,7 @@ name 끝 4바이트에 fflush의 GOT 주소를 입력해서 실행시킨다.
 
 `system`의 시작 주소는 `login` 함수를 보면 알 수 있다.
 
-![](Attachments/{60A020CD-A429-41D7-9678-7542D3299F93}.png)
+![](Attachments/60A020CD-A429-41D7-9678-7542D3299F93.png)
 
 0xr이다.
 하지만 passcode1을 입력받을 때 정수형으로 받기 때문에, 10진수로 바꿔서 보내야 한다.
@@ -211,6 +211,6 @@ p.sendline(payload2)
 p.interactive()
 ```
 
-![](Attachments/{71CE71E2-DF0E-4503-9957-B1346E0D48B4}.png)
+![](Attachments/71CE71E2-DF0E-4503-9957-B1346E0D48B4.png)
 
 🚩

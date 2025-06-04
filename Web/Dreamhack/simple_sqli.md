@@ -10,7 +10,7 @@ SQL INJECTION 취약점을 통해 플래그를 획득하세요. 플래그는 fla
 #### 소스코드
 
 **login** 페이지는 입력받은 `userid`, `userpassword`를 DB에서 조회하고 이에 해당하는 데이터가 있는 경우 로그인을 수행한다.
-![](Attachments/{B607DA3B-7FF6-44E6-85A9-E69B1C77D59B}.png)
+![](Attachments/B607DA3B-7FF6-44E6-85A9-E69B1C77D59B.png)
 
 admin 계정의 비밀번호는 랜덤 16바이트의 문자열이기 때문에 값을 예상할 수 없다.
 
@@ -30,9 +30,9 @@ RawQuery를 생성할 때 이용자의 입력값이 쿼리문에 그대로 포�
 
 `userpassword`를 검사하는 과정을 생략할 수 있게 다음과 같이 입력한다.
 
-![](Attachments/{1E865DA1-F5C1-4F4A-B84C-083A3E3BF6F3}.png)
+![](Attachments/1E865DA1-F5C1-4F4A-B84C-083A3E3BF6F3.png)
 
-![](Attachments/{CD50907D-64F4-4751-8675-417225786EE2}.png)
+![](Attachments/CD50907D-64F4-4751-8675-417225786EE2.png)
 
 
 #### 다른 해결법

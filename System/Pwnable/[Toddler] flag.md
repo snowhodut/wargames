@@ -1,11 +1,11 @@
-![](Attachments/{C85C6D3E-06E1-4769-B787-D5FB871B1EAF}.png)
+![](Attachments/C85C6D3E-06E1-4769-B787-D5FB871B1EAF.png)
 
 wget으로 받아서 실행했다.
 
-![](Attachments/{44F26070-5113-4B6C-9620-90811CCE960F}.png)
+![](Attachments/44F26070-5113-4B6C-9620-90811CCE960F.png)
 이렇게 생긴 파일이다.
 
-![](Attachments/{A885B417-16E6-4FCF-A78D-F72CE7D2452E}.png)
+![](Attachments/A885B417-16E6-4FCF-A78D-F72CE7D2452E.png)
 
 `I will malloc() and strcpy the flag there. take it.`
 
@@ -45,16 +45,16 @@ $ sudo apt install upx
 
 `$ upx -d flag`
 
-![](Attachments/{8C1B4584-09F2-4178-B475-5D89A4895C03}.png)
+![](Attachments/8C1B4584-09F2-4178-B475-5D89A4895C03.png)
 
 gdb로 main을 disassemble해준다.
 
-![](Attachments/{B7A13D4F-C770-42DE-97A3-36032E190C2D}.png)
+![](Attachments/B7A13D4F-C770-42DE-97A3-36032E190C2D.png)
 
 이상한 주석이 있다.
 0x6c2070에 있는 값을 출력한다.
 `(gdb) x/1s *0x6c2070`
 
-![](Attachments/{E62104BF-91AC-486F-8359-91E01A5CDA7D}.png)
+![](Attachments/E62104BF-91AC-486F-8359-91E01A5CDA7D.png)
 
 🚩
