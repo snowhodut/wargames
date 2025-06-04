@@ -12,17 +12,17 @@ CSRF 취약점을 이용해 플래그를 획득하세요.
 
 **vuln** 페이지는 이용자가 전달한 `param` 파라미터의 값을 출력하는데, 파라미터에 "frame", "script", "on" 세 가지의 악성 키워드가 있으면 "\*" 문자로 치환한다.
 (XSS 공격을 막기 위함)
-![[{9F2DCAF8-11E0-4C90-9D66-25BA754B8277}.png]]
+![](Attachments/{9F2DCAF8-11E0-4C90-9D66-25BA754B8277}.png)
 
 **memo** 페이지는 이용자가 작성한 메모를 출력한다.
 
 **admin/notice_flag** 페이지는 로컬호스트에서 접속하는 userid가 admin인 경우에만 memo에 flag를 작성해 보여준다.
 페이지 자체는 모두가 접근 가능하고, userid 파라미터에 admin 값을 넣는 것도 가능하나, IP 주소는 조작할 수 없기 때문에 페이지에 단순히 접근하는 것만으로는 플래그를 획득할 수 없다.
-![[{B25322D2-2EDC-4536-9CC5-C419BB399306}.png]]
+![](Attachments/{B25322D2-2EDC-4536-9CC5-C419BB399306}.png)
 
 **flag** 페이지는 전달된 URL에 임의 이용자가 접속하게 한다.
 (Selenium 봇)
-![[{E23C1145-B2E5-4012-AB39-CB7A8788EC3B}.png]]
+![](Attachments/{E23C1145-B2E5-4012-AB39-CB7A8788EC3B}.png)
 
 
 
@@ -44,7 +44,7 @@ vuln 페이지에서 frame, script, on 세 가지의 악성 키워드는 필터�
 http://host3.dreamhack.games:15693/vuln?param=%3Cimg%20src=1/%3E
 ```
 
-![[{08D93C7D-1200-49A0-9058-6A56B32BD365}.png]]
+![](Attachments/{08D93C7D-1200-49A0-9058-6A56B32BD365}.png)
 
 코드에 의해 이미지가 vuln 페이지에 출력되었다.
 
@@ -57,8 +57,8 @@ http://host3.dreamhack.games:15693/vuln?param=%3Cimg%20src=1/%3E
 <img src="/admin/notice_flag?userid=admin" />
 ```
 
-![[{3A10A38A-096D-45AD-9D3C-A05BD078B475}.png]]
+![](Attachments/{3A10A38A-096D-45AD-9D3C-A05BD078B475}.png)
 
 memo 페이지에 가면 FLAG가 출력되어 있다.
 
-![[{F8FA4F27-EE58-4276-AC2E-00463BA6569D}.png]]
+![](Attachments/{F8FA4F27-EE58-4276-AC2E-00463BA6569D}.png)

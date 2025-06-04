@@ -7,7 +7,7 @@ SSRF 취약점을 이용해 플래그를 획득하세요. 플래그는 `/app/fl
 
 이미지 뷰어가 뜬다.
 
-![[{EA1E17AF-74F5-4E05-8C79-B06D89EE62D0}.png]]
+![](Attachments/{EA1E17AF-74F5-4E05-8C79-B06D89EE62D0}.png)
 
 
 #### 소스코드
@@ -16,11 +16,11 @@ SSRF 취약점을 이용해 플래그를 획득하세요. 플래그는 `/app/fl
 입력값이 `localhost` 또는 `127.0.0.1`을 포함하면 로컬에서 `error.png` 이미지를 읽어와 반환한다.
 이미지 데이터를 가져오는 데 성공하면 Base64로 인코딩한다.
 URL 요청에 실패하면 로컬의 `error.png` 이미지를 읽어와서 Base64로 인코딩한다.
-![[{50FE09BD-B167-40FE-B89A-484ED94B92A1}.png]]
+![](Attachments/{50FE09BD-B167-40FE-B89A-484ED94B92A1}.png)
 
 파이썬의 `http.server` 모듈을 사용하여 HTTP 서버를 생성한다.
 서버가 실행될 호스트 주소는 `127.0.0.1`이고 포트 번호는 1500부터 1800 사이의 랜덤한 포트를 선택한다.
-![[{062ACFF7-6AD3-4567-9D79-3C8F2C69A8A7}.png]]
+![](Attachments/{062ACFF7-6AD3-4567-9D79-3C8F2C69A8A7}.png)
 
 
 #### 취약점
@@ -58,13 +58,13 @@ http://127.0.0.255:8000/
 
 
 `http://Localhost:8000/`을 Image Viewer에 입력하면 어떤 이미지가 로딩된다.
-![[{711EBE33-8671-417A-9DE5-0F60D4A45CAA}.png]]
+![](Attachments/{711EBE33-8671-417A-9DE5-0F60D4A45CAA}.png)
 
 개발자 도구로 살펴보면 Base64로 인코딩되어 있다.
-![[{4E8379C5-947B-441A-8C0C-2390D11E9F92}.png]]
+![](Attachments/{4E8379C5-947B-441A-8C0C-2390D11E9F92}.png)
 
 Base64 디코딩 사이트에서 디코딩해보면 다음과 같다.
-![[{ED3ADF80-89D0-49FF-978E-1047576C7ABD}.png]]
+![](Attachments/{ED3ADF80-89D0-49FF-978E-1047576C7ABD}.png)
 문제 인덱스 페이지를 인코딩한 이미지임을 알 수 있다.
 따라서 위 URL은 필터링을 우회해서 로컬 호스트를 가리킬 수 있는 URL이다.
 
@@ -92,9 +92,9 @@ for port in range(1500,1801):
 - 응답 텍스트에 특정 문자열(`iVBORw0KGgoAAAA`, PNG 이미지의 시작 부분)이 포함되어 있지 않으면 포트를 출력하고 반복문을 종료한다.
 
 스크립트를 실행하면 포트 번호가 1616이라고 나온다.
-![[{AA4F8DA0-98B6-4F3E-A219-A2AC037C4ED5}.png]]
+![](Attachments/{AA4F8DA0-98B6-4F3E-A219-A2AC037C4ED5}.png)
 
-![[{56FCF624-670A-4F15-B1DB-8B4D93C620CE}.png]]
+![](Attachments/{56FCF624-670A-4F15-B1DB-8B4D93C620CE}.png)
 
 Base64로 인코딩된 이미지를 해석하면 FLAG가 나온다.
-![[{9A0B7D2A-C67A-441E-9A5B-4050BA886902}.png]]
+![](Attachments/{9A0B7D2A-C67A-441E-9A5B-4050BA886902}.png)

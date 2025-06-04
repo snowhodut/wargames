@@ -1,7 +1,7 @@
 ---
 sticker: emoji//274c
 ---
-![[{A49BB709-E2C2-44C1-8663-4DEC017985C0}.png]]
+![](Attachments/{A49BB709-E2C2-44C1-8663-4DEC017985C0}.png)
 
 `input.c`를 읽어보자.
 
@@ -231,5 +231,5 @@ p.interactive()
 
 
 실행하긴 했는데
-![[{1B3BE44E-3BD8-4CDD-832F-AEEDB53C8347}.png]]
+![](Attachments/{1B3BE44E-3BD8-4CDD-832F-AEEDB53C8347}.png)
 이상한 에러가 떠서 플래그를 못 얻었다...

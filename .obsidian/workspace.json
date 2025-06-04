@@ -130,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System/Dreamhack/Return to Shellcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Return to Shellcode의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -149,12 +148,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System/Dreamhack/Return to Shellcode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Return to Shellcode의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -164,10 +162,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
@@ -189,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +204,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3013a6689746f5d2",
+  "active": "f5a22b4cd5b99caa",
   "lastOpenFiles": [
+    "Web/sedq9plZ1",
+    "Web/Dreamhack/sedJhQPIG",
+    "Web/Dreamhack/sedaE3CRZ",
+    "Web/Dreamhack/sedninbgn",
+    "Web/Dreamhack/sedqg30LN",
+    "Web/Dreamhack/sedL1DJX9",
+    "Web/Dreamhack/sed0nrkIH",
+    "Web/Dreamhack/sed965BmQ",
+    "Web/Dreamhack/sedOzJsqS",
+    "Web/Dreamhack/sedaFgQeB",
+    "System/sed9thBqA",
     "README.md",
     "System/Pwnable/[Toddler] blukat.md",
     "System/Dreamhack/basic_exploitation_002.md",
@@ -230,24 +242,15 @@
     "Web/Dreamhack/xss-2.md",
     "Web/Dreamhack/simple_sqli.md",
     "Web/Dreamhack/image-storage.md",
-    "Web/Dreamhack/file-download-1.md",
-    "Media/{561167F2-0E66-4661-ACF1-E015D440FDD0} 1.png",
-    "Media/{561167F2-0E66-4661-ACF1-E015D440FDD0}.png",
-    "Media/{7DB10F8C-6142-4270-ABC3-813E0F263BE3}.png",
-    "Media/{DF26A06C-04F4-455A-A96D-7D790162A035}.png",
-    "Media/{8DB0DD9C-D126-49C6-B4CB-65CEA4F4E022}.png",
-    "Media/{FCCB89F5-EA11-41A6-AF43-8A8ED5EAF528}.png",
-    "Media/{6C625355-E5B7-438B-A7AB-7D20F3DB1A8E}.png",
-    "Media/{8C48088D-2EA8-4291-9662-01C8E1925881}.png",
-    "Media/{6B5CA851-367C-469D-A02D-8A4961104865}.png",
-    "Media/{5AB8D97B-7853-40AE-BDDF-E21425429BAF}.png",
-    "Tags",
-    "Lock",
-    "System/Pwnable",
-    "System/Dreamhack",
-    "Web/Dreamhack",
-    "System",
-    "Web",
-    "Media"
+    "Attachments/{561167F2-0E66-4661-ACF1-E015D440FDD0} 1.png",
+    "Attachments/{561167F2-0E66-4661-ACF1-E015D440FDD0}.png",
+    "Attachments/{7DB10F8C-6142-4270-ABC3-813E0F263BE3}.png",
+    "Attachments/{DF26A06C-04F4-455A-A96D-7D790162A035}.png",
+    "Attachments/{8DB0DD9C-D126-49C6-B4CB-65CEA4F4E022}.png",
+    "Attachments/{FCCB89F5-EA11-41A6-AF43-8A8ED5EAF528}.png",
+    "Attachments/{6C625355-E5B7-438B-A7AB-7D20F3DB1A8E}.png",
+    "Attachments/{8C48088D-2EA8-4291-9662-01C8E1925881}.png",
+    "Attachments/{6B5CA851-367C-469D-A02D-8A4961104865}.png",
+    "Attachments/{5AB8D97B-7853-40AE-BDDF-E21425429BAF}.png"
   ]
 }

@@ -39,11 +39,11 @@ int main() {
 
 
 `rao` 바이너리를 gdb로 분석:
-![[{3DBFE693-B01D-495B-8CCA-1428D4460714}.png]]
+![](Attachments/{3DBFE693-B01D-495B-8CCA-1428D4460714}.png)
 
 `scanf()` 함수의 버퍼 시작 주소 = `rbp-0x30`
 
-![[{0F7D3B72-B913-4AB6-A0BD-BA48609C5D6C}.png]]
+![](Attachments/{0F7D3B72-B913-4AB6-A0BD-BA48609C5D6C}.png)
 
 `get_shell()` 함수의 시작 주소: `0x4006aa`
 
@@ -64,6 +64,6 @@ p.sendline(payload)
 p.interactive()
 ```
 
-![[{B5182A5A-5D23-4958-81C1-1B7FF2686AE5}.png]]
+![](Attachments/{B5182A5A-5D23-4958-81C1-1B7FF2686AE5}.png)
 
 🚩

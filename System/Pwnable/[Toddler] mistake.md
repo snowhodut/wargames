@@ -1,4 +1,4 @@
-![[{A13617A2-88AD-4A42-8FD9-EF04F71CDB8E}.png]]
+![](Attachments/{A13617A2-88AD-4A42-8FD9-EF04F71CDB8E}.png)
 
 
 ```c
@@ -81,7 +81,7 @@ if(fd=open("/home/mistake/password",O_RDONLY,0400) < 0){
 `pw_buf2`로 10바이트의 값을 받으므로, `pw_buf`에도 10바이트의 값을 입력해준다.
 A를 10번 입력했다.
 
-![[{66FFAC9F-6F2D-4CDE-96CA-A9286A52E708}.png]]
+![](Attachments/{66FFAC9F-6F2D-4CDE-96CA-A9286A52E708}.png)
 
 A의 아스키 코드 값은 0x41이다.
 
@@ -99,6 +99,6 @@ void xor(char* s, int len){
 
 `pw_buf2` 값으로 @를 10번 입력한다.
 
-![[{FAC8B0F9-6CC1-4A29-9CA3-4FAB042E335C}.png]]
+![](Attachments/{FAC8B0F9-6CC1-4A29-9CA3-4FAB042E335C}.png)
 
 🚩
