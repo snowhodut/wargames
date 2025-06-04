@@ -100,7 +100,7 @@
             }
           },
           {
-            "id": "d819b78e38b5d40b",
+            "id": "7c560d6149548d6d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -200,7 +200,6 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false
     }
   },
