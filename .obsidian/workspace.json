@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "9950f300291d57ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "4eb3d31d592b1517",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5a22b4cd5b99caa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System/Dreamhack/Return to Shellcode.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Return to Shellcode"
+            }
+          },
+          {
+            "id": "d3e5cf21f0fa34d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System/Pwnable/[Toddler] blukat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "[Toddler] blukat"
+            }
+          },
+          {
+            "id": "507fbc13c8c89233",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Web/Dreamhack"
+              },
+              "icon": "lucide-file",
+              "title": "Dreamhack"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36532b4af24f7436",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d00e3cb7c151bac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fc706a1689c36c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "d778daa28821b2c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e1a910724379ee30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "d819b78e38b5d40b",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "591e39c89e17a911",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cd90b9c66b8d6f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52e1497196183421",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "System/Dreamhack/Return to Shellcode.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Return to Shellcode의 백링크"
+            }
+          },
+          {
+            "id": "1f23bb6a31b6b87c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "System/Dreamhack/Return to Shellcode.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Return to Shellcode의 나가는 링크"
+            }
+          },
+          {
+            "id": "c9531b2ac0ee396a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3013a6689746f5d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3013a6689746f5d2",
+  "lastOpenFiles": [
+    "README.md",
+    "System/Pwnable/[Toddler] blukat.md",
+    "System/Dreamhack/basic_exploitation_002.md",
+    "System/Dreamhack/basic_exploitation_001.md",
+    "System/Dreamhack/basic_exploitation_000.md",
+    "System/Dreamhack/Return Address Overwrite.md",
+    "System/Dreamhack/shell_basic.md",
+    "System/Pwnable/[Toddler] blackjack.md",
+    "System/Pwnable/[Toddler] coin1.md",
+    "System/Pwnable/[Toddler] shellshock.md",
+    "System/Pwnable/[Toddler] mistake.md",
+    "System/Pwnable/[Toddler] leg.md",
+    "System/Pwnable/[Toddler] input.md",
+    "System/Pwnable/[Toddler] random.md",
+    "System/Pwnable/[Toddler] passcode.md",
+    "System/Pwnable/[Toddler] cmd1.md",
+    "System/Pwnable/[Toddler] flag.md",
+    "System/Pwnable/[Toddler] bof.md",
+    "System/Pwnable/[Toddler] collision.md",
+    "System/Pwnable/[Toddler] fd.md",
+    "Web/Dreamhack/xss-1.md",
+    "Web/Dreamhack/web-ssrf.md",
+    "Web/Dreamhack/xss-2.md",
+    "Web/Dreamhack/simple_sqli.md",
+    "Web/Dreamhack/image-storage.md",
+    "Web/Dreamhack/file-download-1.md",
+    "Media/{561167F2-0E66-4661-ACF1-E015D440FDD0} 1.png",
+    "Media/{561167F2-0E66-4661-ACF1-E015D440FDD0}.png",
+    "Media/{7DB10F8C-6142-4270-ABC3-813E0F263BE3}.png",
+    "Media/{DF26A06C-04F4-455A-A96D-7D790162A035}.png",
+    "Media/{8DB0DD9C-D126-49C6-B4CB-65CEA4F4E022}.png",
+    "Media/{FCCB89F5-EA11-41A6-AF43-8A8ED5EAF528}.png",
+    "Media/{6C625355-E5B7-438B-A7AB-7D20F3DB1A8E}.png",
+    "Media/{8C48088D-2EA8-4291-9662-01C8E1925881}.png",
+    "Media/{6B5CA851-367C-469D-A02D-8A4961104865}.png",
+    "Media/{5AB8D97B-7853-40AE-BDDF-E21425429BAF}.png",
+    "Tags",
+    "Lock",
+    "System/Pwnable",
+    "System/Dreamhack",
+    "Web/Dreamhack",
+    "System",
+    "Web",
+    "Media"
+  ]
+}
