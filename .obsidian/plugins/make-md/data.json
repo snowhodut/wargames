@@ -44,16 +44,15 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//Web",
-    "//System",
-    "/",
     "//[Dreamhack] Web",
     "//System/System/Pwnable",
     "//🔒",
     "//Tags",
-    "//Lock",
     "//System/System/Dreamhack",
-    "//Web/Web/Dreamhack"
+    "//Web/Web/Dreamhack",
+    "/",
+    "//Web",
+    "//Web/Dreamhack"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
