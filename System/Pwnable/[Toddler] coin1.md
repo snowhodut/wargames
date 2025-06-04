@@ -1,9 +1,9 @@
 ---
 sticker: emoji//274c
 ---
-![](Attachments/6D2F1CE5-A692-4514-ACC4-76F7F71B12D1.png)
+![](../../Attachments/6D2F1CE5-A692-4514-ACC4-76F7F71B12D1.png)
 
-![](Attachments/A6FF0B3A-2003-4936-9078-5C0D134DA7DA.png)
+![](../../Attachments/A6FF0B3A-2003-4936-9078-5C0D134DA7DA.png)
 
 진짜 동전의 무게는 10, 가짜 동전은 9이고 가짜 동전 100개를 찾으면 보상을 준다고 한다. 플래그인 듯.
 N을 보내면 N+1번째 동전의 무게를 알려준다.

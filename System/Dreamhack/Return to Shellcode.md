@@ -49,7 +49,7 @@ pwntools와 함께 설치되는 **checksec** 툴을 사용한다.
 
 `$ checksec ./r2s`
 
-![](Attachments/8DB0DD9C-D126-49C6-B4CB-65CEA4F4E022.png)
+![](../../Attachments/8DB0DD9C-D126-49C6-B4CB-65CEA4F4E022.png)
 
 카나리가 적용되어 있다.
 
@@ -65,7 +65,7 @@ pwntools와 함께 설치되는 **checksec** 툴을 사용한다.
 #### 카나리 우회
 
 두 번째 입력(`gets`)으로 반환 주소를 덮을 수 있지만 카나리가 조작되면 `__stack_chk_fail` 함수에 의해 프로그램이 강제 종료된다.
-![](Attachments/DF26A06C-04F4-455A-A96D-7D790162A035.png)
+![](../../Attachments/DF26A06C-04F4-455A-A96D-7D790162A035.png)
 
 첫 번째 입력을 살펴보자:
 ```c
@@ -112,7 +112,7 @@ slog('buf <=> canary', buf2cnry)
 스택 프레임에 대한 정보를 수집했으므로 이를 활용해 카나리를 구해야 한다.
 `buf`와 카나리 사이를 임의의 값으로 채우면, 프로그램에서 `buf`를 출력할 때 카나리가 같이 출력된다.
 
-![](Attachments/7DB10F8C-6142-4270-ABC3-813E0F263BE3.png)
+![](../../Attachments/7DB10F8C-6142-4270-ABC3-813E0F263BE3.png)
 
 ```python
 # [2] Leak canary value
@@ -126,7 +126,7 @@ slog('Canary', cnry)
 
 #### 익스플로잇
 
-![](Attachments/561167F2-0E66-4661-ACF1-E015D440FDD0.png)
+![](../../Attachments/561167F2-0E66-4661-ACF1-E015D440FDD0.png)
 
 카나리를 구했으므로 `buf`에 셸코드를 주입하고 카나리를 구한 값으로 덮은 뒤 RET(반환 주소)를 `buf`로 덮으면 셸코드를 진행시킬 수 있다.
 

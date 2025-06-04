@@ -1,4 +1,4 @@
-![](Attachments/D541431D-F42C-4EA7-ADC9-ECF400436A0F.png)
+![](../../Attachments/D541431D-F42C-4EA7-ADC9-ECF400436A0F.png)
 
 
 
@@ -54,4 +54,4 @@ int main(int argc, char* argv[]){
 	- 0x06C5CEC8 * 4 + 0x06C5CECC
 - `./col python -c 'print "\xc8\xce\xc5\x06"*4 + "\xcc\xce\xc5\x06"'`
 
-![](Attachments/14904862-C081-41A3-B318-2A47D275ACB6.png)
+![](../../Attachments/14904862-C081-41A3-B318-2A47D275ACB6.png)

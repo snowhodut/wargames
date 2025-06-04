@@ -1,6 +1,6 @@
-![](Attachments/074744E8-64C9-4D11-B992-2CA155836C63.png)
+![](../../Attachments/074744E8-64C9-4D11-B992-2CA155836C63.png)
 
-![](Attachments/56E728FD-200C-495D-B3E5-A98FCC707139.png)
+![](../../Attachments/56E728FD-200C-495D-B3E5-A98FCC707139.png)
 
 cmd1.c부터 읽어보자.
 
@@ -38,7 +38,7 @@ Linux에서 사용하는 명령어는 모두 `bin` 디렉토리에 존재한다.
 
 또, 필터링을 하기 때문에 \* 와일드카드를 사용해 flag에 접근할 수 있다.
 
-![](Attachments/76DC905B-A567-4BAE-ACC8-DC1DEDEB003C.png)
+![](../../Attachments/76DC905B-A567-4BAE-ACC8-DC1DEDEB003C.png)
 
 아니면 `export` 커맨드로 일시적으로 현재 세션에서만 유효한 환경변수를 설정하는 방법도 있다.
 
